@@ -1,6 +1,6 @@
 'use strict';
 
-/* Services */
+/* Sample Services */
 angular.module('myApp.services', [])
 //provide methods to manage credentials of federated user 
 .factory('loggerManager', function(configLogger, $location, $rootScope){
